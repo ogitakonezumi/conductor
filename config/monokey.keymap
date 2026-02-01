@@ -157,3 +157,13 @@
         };
     };
 };
+
+/* マウス移動とスクロールの加速設定 */
+&mmv {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <1>;
+};
+&msc {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <0>;
+};
