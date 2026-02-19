@@ -113,10 +113,10 @@
 
         win {
             bindings = <
-&trans                   &trans        &trans  &trans                  &trans                  &trans                   &trans  &trans  &trans  &trans
-&trans                   &trans        &trans  &trans                  &trans                  &trans                   &trans  &trans  &trans  &trans
-&trans                   &trans        &trans  &trans                  &trans                  &trans                   &trans  &trans  &trans  &trans
-&mt LEFT_CONTROL ESCAPE  &kp LEFT_WIN  &trans  &mt LEFT_CONTROL LANG2  &trans  &trans  &trans  &mt RIGHT_CONTROL LANG1                  &trans  &trans
+&trans                   &trans        &trans  &trans                  &trans                        &trans                   &trans  &trans  &trans  &trans
+&trans                   &trans        &trans  &trans                  &trans                        &trans                   &trans  &trans  &trans  &trans
+&trans                   &trans        &trans  &trans                  &trans                        &trans                   &trans  &trans  &trans  &trans
+&mt LEFT_CONTROL ESCAPE  &kp LEFT_WIN  &trans  &mt LEFT_CONTROL LANG2  &trans  &trans  &lt 3 DELETE  &mt RIGHT_CONTROL LANG1                  &trans  &trans
             >;
         };
 
